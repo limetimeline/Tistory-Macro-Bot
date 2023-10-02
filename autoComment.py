@@ -28,7 +28,7 @@ def LoadPost(url):
 
     # preloading 때문에 내려야함
     for c in range(0,25): # 25가 적당. 안바꿔도 됨 => 더보기 버튼이 작동해서..
-        driver.find_element_by_tag_name('body').send_keys(Keys.PAGE_DOWN)
+        driver.find_element(By.TAG_NAME,'body').send_keys(Keys.PAGE_DOWN)
         time.sleep(1)
 
     postList = []
@@ -170,7 +170,7 @@ def FollowerINC(categoryNum):
 
     # 페이지 preloading 때문에 내려야함
     for c in range(0,30): # 원하는 만큼 지정하면 됨
-        driver.find_element_by_tag_name('body').send_keys(Keys.PAGE_DOWN)
+        driver.find_element(By.TAG_NAME,'body').send_keys(Keys.PAGE_DOWN)
         time.sleep(1)
 
     time.sleep(10) # 구독하기 로딩
@@ -208,7 +208,7 @@ def StoryFeed():
         
         # 페이지 preloading 때문에 내려야함
         for c in range(0,50): # 원하는 만큼 지정하면 됨
-            driver.find_element_by_tag_name('body').send_keys(Keys.PAGE_DOWN)
+            driver.find_element(By.TAG_NAME,'body').send_keys(Keys.PAGE_DOWN)
             time.sleep(1)
 
         time.sleep(10) # 구독하기 로딩
