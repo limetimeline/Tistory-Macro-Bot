@@ -12,8 +12,9 @@ Recent Update: 2023-10-03
 - 블로그 주소가 'https://000.tistory.com/나는-오늘-좋았다' 형식이면 건너뜀 (https://000.tistory.com/420 형식만 가능)
 - 피드 리스트, 스토리 피드 리스트를 메모장으로 저장하고 불러오기 기능
 - 이미 구독된 블로그 건너뛰기
-- 댓글쓰기 및 공감 누르기 기능   
-2023-10-03 - release version 1.1.0   
+- 댓글쓰기 및 공감 누르기 기능
+   
+2023-10-03 - release version 1.1.0      
 - 'find_element_by_tag_name' 오류 수정
 
 # Requirements
@@ -30,4 +31,5 @@ python autoComment.py
 - (구독자가 있든 없든) 4. 스토리 피드 리스트 생성 → 2. 댓글 쓰기 및 공감 누르기
 - 피드 리스트 불러오기 5. PostList 불러오기(postList.txt)
 
+# Youtube
 [![Watch the video](https://i9.ytimg.com/vi_webp/FRF2tXIw1w8/mqdefault.webp?v=651b0a56&sqp=CNih7KgG&rs=AOn4CLDCCpjDP2QIdNJCwnWW8jflFxpXzA)](https://www.youtube.com/watch?v=FRF2tXIw1w8)
